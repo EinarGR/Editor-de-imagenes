@@ -1,0 +1,12 @@
+# Lineas para agregar al CMakeLists.txt del grupo
+add_executable(prueba_filtros prueba_filtros.cpp
+        Imagen.cpp
+        Filtro.cpp
+        Umbral.cpp
+        Media.cpp
+        Sobel.cpp
+        EspejoHorizontal.cpp
+        Rotar90.cpp
+        Mediana.cpp
+        CadenaFiltros.cpp
+        pgm_io/pgm_io.cpp)
